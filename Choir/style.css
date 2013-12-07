@@ -1,0 +1,310 @@
+/* Rules */
+
+@font-face
+{
+font-family: CaviarDreams;
+src: url(fonts/caviardreams.eot);
+}
+
+@font-face
+{
+font-family: CaviarDreams;
+src:url(fonts/caviardreams_bold.eot);
+font-weight:bold;
+}
+
+@font-face
+{
+font-family: CaviarDreams;
+src: url(fonts/caviardreams.ttf);
+}
+
+@font-face
+{
+font-family: CaviarDreams;
+src:url(fonts/caviardreams_bold.ttf);
+font-weight:bold;
+}
+
+/* Structure*/
+body {
+	overflow-x:hidden;
+}
+
+#page {
+	position:absolute;
+	top:20px;
+	left:0;
+	display:block;
+	width: 100%;
+	min-width: 825px;
+}
+
+#content {
+	margin: 0px 0px 30px 220px;
+	padding: 30px 13% 20px 2%;
+	background-color: #e5e5e5;
+	width: 47%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+#content .entry-title{
+	font-family:CaviarDreams, "Trebuchet MS", Helvetica, sans-serif;
+	font-weight:bold;
+}
+.entry-content h3{
+	padding-left:30px;
+}
+.entry-content p{
+	padding-left:30px;
+}
+#main .concerts {
+	position:absolute;
+	left: 73.5%;
+	top: 170px;
+	float: right;
+	overflow: hidden;
+	height:400px;
+	width: 180px;
+	background:url(images/sidebar.jpg) no-repeat;
+	background-position:top right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+#signature {
+	clear: both;
+	display: block;
+	width: 100%;
+}
+
+.alignleft {
+	display: inline;
+	float: left;
+}
+.alignright {
+	display: inline;
+	float: right;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Header*/
+
+#site-title {
+	font-size: 48px;
+	font-family: CaviarDreams;
+	background: #898989 url(images/faces.jpg) 11% no-repeat;
+	height: 144px;
+	width: 100%;
+	margin:0;
+	padding:0;
+}
+
+#site-title a {
+	color:#FFF;
+	text-decoration:none;
+	font-weight:normal;
+	position:absolute;
+	left: 27%;
+	top: 40px;
+	padding-right: 70px;
+}
+
+#site-title:before {
+	content:url(images/left.jpg);
+	width:auto;
+}
+
+#site-title:after {
+	content:url(images/right.jpg);
+	position:absolute;
+	right:0;
+	width:auto;
+}
+
+/* Menu*/
+
+#access {
+	background:url(images/menu.jpg) no-repeat top left;
+	display: block;
+	position:relative;
+	left: 13%;
+	height: 73px;
+	margin:-16px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#access ul {
+	list-style: none;
+	margin: 0;
+	padding: 0px 10px;
+}
+#access li {
+	float: left;
+	padding-right: 4px;
+}
+
+#access a {
+	display: block;
+	line-height: 21px;
+	text-decoration: none;
+	font-family:CaviarDreams, "Trebuchet MS", Helvetica, sans-serif;
+
+	font-weight:bold;
+	font-size:23px;
+	color:#000;
+	border-radius:5px;
+	padding: 3px 7px;
+	margin: 20px 0;
+}
+#access li:hover > a,
+#access ul ul :hover > a {
+	background: rgba(255, 255, 255, 0.8);
+}
+#access ul ul a:hover {
+	background: #cecece;
+}
+#access ul li:hover > ul {
+	display: block;
+}
+
+
+/* Content*/
+#content a{
+	color: #00b1ae;
+}
+
+#content img{
+	box-shadow: 0px 0px 85px rgba(0,0,0,.5);
+	border-radius:5px;
+}
+
+h1.page-title{
+	display:none;
+}
+
+#content nav {
+	display: block;
+	overflow: hidden;
+}
+
+/* Images*/
+
+a img {
+	border: none;
+}
+p img {
+	margin-bottom: 0.5em;
+}
+
+img.alignleft {
+	margin-right: 1em;
+}
+img.alignright {
+	margin-left: 1em;
+}
+
+.images img{
+	float:left;
+	width:100%;
+	margin-top:5px;
+}
+
+.images ul{
+	list-style:none;
+}
+.half{
+	width:48%;
+	float:left;
+	padding-right:1%;
+	padding-left:1%;
+}
+.images {
+	margin-bottom:5%;
+}
+/* Forms*/
+
+input[type=text],
+input#s {
+	margin: 0 1em 0 0;
+	width: 60%;
+}
+textarea {
+	width: 80%;
+}
+
+article.comment {
+	display: block;
+}
+#respond input[type=text] {
+	display: block;
+	width: 60%;
+}
+#respond textarea {
+	display: block;
+	margin: 0 0 1em;
+	width: 80%;
+}
+
+.hide{
+	visibility:hidden;
+}
+/* Concerts*/
+
+.dates h1{
+	display: block;
+	padding: 5px;
+	font-family:CaviarDreams, "Trebuchet MS", Helvetica, sans-serif;
+	font-weight:bold;
+	color:#000;
+	font-size:1.3em;
+}
+
+.dates ul{
+	list-style:none;
+}
+
+.dates p{
+	padding-left:6px;
+}
+.concerts a{
+	color: #000;
+	text-decoration:none;
+}
+.concerts a:hover{
+	color: #000;
+	text-decoration:underline;
+}
+
+#rss_links {
+	position:fixed;
+	left: 28px;
+	top: 250px;
+}
+
+#rss_links ul{
+	list-style:none;
+}
+
+[title="Subscribe to Posts"]{
+	background:url(images/rss.jpg) no-repeat;
+	display:block;
+	width: 162px;
+	height: 252px;
+	text-indent: -999999px;
+	margin: 0 -10px;
+}
+
+#rss_links h1{
+	display:none;
+}
+/* Footer*/
+
+#signature {
+	background: url(images/footer.jpg) left bottom no-repeat;
+	padding-top: 60px;
+}
