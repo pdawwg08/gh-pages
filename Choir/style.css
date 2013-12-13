@@ -29,6 +29,7 @@ font-weight:bold;
 /* Structure*/
 body {
 	overflow-x:hidden;
+	width:100%;
 }
 
 #page {
@@ -37,14 +38,13 @@ body {
 	left:0;
 	display:block;
 	width: 100%;
-	min-width: 825px;
 }
 
 #content {
-	margin: 0px 0px 30px 220px;
+	margin: 0% 0% 0% 20%;
 	padding: 30px 13% 20px 2%;
 	background-color: #e5e5e5;
-	width: 47%;
+	width: 44%;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 1em;
 }
@@ -60,7 +60,7 @@ body {
 }
 #main .concerts {
 	position:absolute;
-	left: 73.5%;
+	left: 70%;
 	top: 170px;
 	float: right;
 	overflow: hidden;
@@ -70,6 +70,11 @@ body {
 	background-position:top right;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:16px;
+}
+@media all and (max-width:785px) {
+	#main .concerts {
+		display: none;
+	}
 }
 #signature {
 	clear: both;
@@ -114,7 +119,12 @@ body {
 	top: 40px;
 	padding-right: 70px;
 }
-
+@media all and (max-width:785px) {
+	#site-title {
+		background: #898989;
+		font-size: 2em;
+	}
+}
 #site-title:before {
 	content:url(images/left.jpg);
 	width:auto;
@@ -126,7 +136,15 @@ body {
 	right:0;
 	width:auto;
 }
-
+@media all and (max-width:555px) {
+	#site-title {
+		background: #898989;
+		width:100%;
+	}
+	#site-title:before, #site-title:after {
+		Display: none;
+	}
+}
 /* Menu*/
 
 #access {
@@ -137,6 +155,14 @@ body {
 	height: 73px;
 	margin:-16px;
 	font-family:Arial, Helvetica, sans-serif;
+}
+@media all and (max-width:555px) {
+	#access {
+		background: #1DB0AD;
+		width:100%;
+		left:0px;
+		Margin:auto;
+	}
 }
 #access ul {
 	list-style: none;
@@ -160,6 +186,14 @@ body {
 	border-radius:5px;
 	padding: 3px 7px;
 	margin: 20px 0;
+}
+@media all and (max-width:430px) {
+	#access a {
+		font-size: 1em;
+	}
+	#site-title {
+		font-size: 1.5em;
+	}
 }
 #access li:hover > a,
 #access ul ul :hover > a {
@@ -282,21 +316,22 @@ article.comment {
 
 #rss_links {
 	position:fixed;
-	left: 28px;
+	left: 2%;
 	top: 250px;
+	height: 200px;
+	display:none;
 }
 
 #rss_links ul{
 	list-style:none;
+	width: 120%;
 }
 
 [title="Subscribe to Posts"]{
 	background:url(images/rss.jpg) no-repeat;
 	display:block;
-	width: 162px;
-	height: 252px;
+	background-size: cover;
 	text-indent: -999999px;
-	margin: 0 -10px;
 }
 
 #rss_links h1{
@@ -307,4 +342,35 @@ article.comment {
 #signature {
 	background: url(images/footer.jpg) left bottom no-repeat;
 	padding-top: 60px;
+}
+@media all and (min-width:1270px) {
+	#signature {
+		display: none;
+	}
+}
+@media all and (max-width:555px) {
+	h1 {
+		font-size:1.5em;
+	}
+	h2 {
+		font-size:1em;
+	}
+	h3 {
+		font-size:1em;
+	}
+	
+}
+@media all and (max-width:430px) {
+	h1 {
+		font-size:1em;
+	}
+	h2 {
+		font-size:.8em;
+	}
+	h3 {
+		font-size:.8em;
+	}
+	p {
+		font-size:.7em;
+	}
 }
