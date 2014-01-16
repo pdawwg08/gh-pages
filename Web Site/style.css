@@ -58,15 +58,14 @@ aside li {
 }
 ul.nav {
 	list-style: none;
-	border-top: 1px solid #666;
-	margin-bottom: 0px;
 }
 
 ul.nav a, ul.nav a:visited {
-	padding: 5px 5px 5px 15px;
 	display: block;
-	width: 160px;
+	width: 180px;
 	text-decoration: none;
+	line-height: 2.5;
+	text-align:center;
 	background-color: #2ED81D;
 	float: left;
 }
