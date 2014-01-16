@@ -92,7 +92,7 @@ ul.nav a, ul.nav a:visited {
 
 footer {
 	padding: 10px 0;
-	background-color: #FC80C2;
+	background-color: rgba(83,153,222,0.9);
 	position: relative;
 	clear: both;
 }
