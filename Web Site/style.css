@@ -53,6 +53,7 @@ aside {
 }
 aside li {
 	float: left;
+	list-style-type:none;
 }
 ul.nav {
 	list-style: none;
