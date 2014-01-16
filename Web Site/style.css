@@ -40,6 +40,9 @@ header {
 	float:left;
 	margin: 20px 115px;
 }
+h1 {
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+}
 article {
 	padding: 10px 0;
 	width: 640px;
