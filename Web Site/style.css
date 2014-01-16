@@ -1,0 +1,99 @@
+@charset "UTF-8";
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	padding: 0;
+	color: #000;
+	width: 960px;
+}
+
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a img {
+	border: none;
+}
+a:link {
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+header {
+	background-color: #5199DE;
+	overflow: hidden;
+}
+#Logo {
+	float:left;
+	margin: 20px 120px;
+}
+article {
+	padding: 10px 0;
+	width: 600px;
+	float: left;
+	clear: left;
+}
+aside {
+	float: left;
+	width: 360px;
+	background-color: #FFCF08;
+	padding: 10px 0;
+}
+aside li {
+	float: left;
+}
+ul.nav {
+	list-style: none;
+	border-top: 1px solid #666;
+	margin-bottom: 0px;
+}
+
+ul.nav a, ul.nav a:visited {
+	padding: 5px 5px 5px 15px;
+	display: block;
+	width: 160px;
+	text-decoration: none;
+	background-color: #2ED81D;
+	float: left;
+}
+
+footer {
+	padding: 10px 0;
+	background-color: #FC80C2;
+	position: relative;
+	clear: both;
+}
+address {
+	padding: 5px 15px;
+}
+/* ~~ Miscellaneous float/clear classes ~~ */
+.fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty block element as the final element following the last floated block (within the .container) if the footer is removed or taken out of the .container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+header, section, footer, aside, article, figure {
+	display: block;
+}
