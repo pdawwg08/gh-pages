@@ -1,7 +1,8 @@
 @charset "UTF-8";
 body {
 	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-	background-color: #FFFFFF;
+	background-image:url(Images/background.jpg);
+	background-repeat:repeat-x;
 	margin: 0 auto;
 	padding: 0;
 	color: #000;
@@ -48,6 +49,7 @@ h1 {
 	width: 640px;
 	float: left;
 	clear: left;
+	background-color:#FFF;
 }
 #Characters {
 	-webkit-column-count: 3;
