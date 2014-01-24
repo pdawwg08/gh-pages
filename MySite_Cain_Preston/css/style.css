@@ -127,6 +127,7 @@ header, section, footer, aside, article, figure {
 @media screen and (max-width: 960px) {
 	body {
 	font: 85%/1.3 'Montserrat', Verdana, Arial, Helvetica, sans-serif;
+	width: 100%;
 	}
 	.content {
 	width: 64%;
@@ -142,6 +143,7 @@ header, section, footer, aside, article, figure {
 @media screen and (max-width: 767px){
 	body {
 	font: 80%/1.3 'Montserrat', Verdana, Arial, Helvetica, sans-serif;
+	width: 100%;
 	}
 	.content {
 	width: 64%;
@@ -157,6 +159,7 @@ header, section, footer, aside, article, figure {
 @media screen and (max-width: 599px) {
 	body {
 	font: 75%/1.3 'Montserrat', Verdana, Arial, Helvetica, sans-serif;
+	width: 100%;
 	}
 	.content {
 	width: 100%;
