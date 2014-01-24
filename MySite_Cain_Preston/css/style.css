@@ -37,6 +37,7 @@ a:hover, a:active, a:focus {
 header {
 	background-color: rgba(83,153,222,0.9);
 	overflow: hidden;
+	padding-bottom: 10px;
 }
 #Logo {
 	float:left;
@@ -123,6 +124,9 @@ header, section, footer, aside, article, figure {
 	aside {
 	width: 36%;
 	}
+	aside li {
+		padding-left: 10px;
+	}
 }
 @media screen and (max-width: 767px){
 	body {
@@ -139,6 +143,9 @@ header, section, footer, aside, article, figure {
 	aside {
 	width: 36%;
 	}
+	aside li {
+		padding-left: 10px;
+	}
 }
 @media screen and (max-width: 599px) {
 	body {
@@ -154,5 +161,8 @@ header, section, footer, aside, article, figure {
 	}
 	aside {
 	width: 100%;
+	}
+	aside li {
+		padding-left: 10px;
 	}
 }
