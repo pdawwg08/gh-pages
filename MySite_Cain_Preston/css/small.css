@@ -1,12 +1,13 @@
 @charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 body {
-	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-	background-image:url(Images/background.jpg);
+	font: 95%/1.3 'Montserrat', Verdana, Arial, Helvetica, sans-serif;
+	background-image:url(../images/background.jpg);
 	background-repeat:repeat-x;
 	margin: 0 auto;
 	padding: 0;
 	color: #000;
-	width: 1000px;
+	width: 100%;
 }
 
 ul, ol, dl {
@@ -46,15 +47,15 @@ h1 {
 }
 .content {
 	padding: 10px 0;
-	width: 640px;
+	width: 64%;
 	float: left;
 	clear: left;
 	background-color:#FFF;
 }
 #Characters {
-	-webkit-column-count: 3;
+	-webkit-column-count: 1;
 	-webkit-column-gap: 5px;
-	column-count: 3;
+	column-count: 1;
 	column-gap: 5px;
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -64,7 +65,7 @@ h1 {
 }
 aside {
 	float: left;
-	width: 360px;
+	width: 36%;
 	background-color: #FFCF08;
 	padding: 10px 0;
 }
@@ -94,6 +95,7 @@ ul.nav a {
 }
 ul.nav li {
 	float:left;
+	padding-bottom: 10px;
 }
 footer {
 	padding: 10px 0;
