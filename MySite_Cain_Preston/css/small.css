@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 body {
-	font: 95%/1.3 'Montserrat', Verdana, Arial, Helvetica, sans-serif;
+	font: 80%/1.3 'Montserrat', Verdana, Arial, Helvetica, sans-serif;
 	background-image:url(../images/background.jpg);
 	background-repeat:repeat-x;
 	margin: 0 auto;
@@ -72,6 +72,7 @@ aside {
 aside li {
 	float: left;
 	list-style-type:none;
+	padding-left: 10px;
 }
 ul.nav {
 	list-style: none;
