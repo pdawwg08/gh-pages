@@ -47,8 +47,8 @@ h1 {
 	text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
 }
 .content {
-	padding: 10px 0;
-	width: 640px;
+	padding: 1% 0;
+	width: 64%;
 	float: left;
 	clear: left;
 	background-color:#FFF;
@@ -72,9 +72,9 @@ h1 {
 }
 aside {
 	float: left;
-	width: 360px;
+	width: 36%;
 	background-color: #FFCF08;
-	padding: 10px 0;
+	padding: 1% 0;
 }
 aside li {
 	float: left;
@@ -104,13 +104,13 @@ ul.nav li {
 	float:left;
 }
 footer {
-	padding: 10px 0;
+	padding: 1% 0;
 	background-color: rgba(83,153,222,0.9);
 	position: relative;
 	clear: both;
 }
 address {
-	padding: 5px 15px;
+	padding: .5% 1.5%;
 }
 header, section, footer, aside, article, figure {
 	display: block;
@@ -132,7 +132,7 @@ header, section, footer, aside, article, figure {
 	width: 36%;
 	}
 	aside li {
-		padding-left: 10px;
+		padding-left: 5%;
 	}
 }
 @media screen and (max-width: 767px){
@@ -152,7 +152,7 @@ header, section, footer, aside, article, figure {
 	width: 36%;
 	}
 	aside li {
-		padding-left: 10px;
+		padding-left: 5%;
 	}
 }
 @media screen and (max-width: 599px) {
@@ -172,6 +172,6 @@ header, section, footer, aside, article, figure {
 	width: 100%;
 	}
 	aside li {
-		padding-left: 10px;
+		padding-left: 5%;
 	}
 }
