@@ -56,6 +56,8 @@ h1 {
 #Characters {
 	-webkit-column-count: 3;
 	-webkit-column-gap: 5px;
+	-moz-column-count: 3;
+	-moz-column-gap: 5px;
 	column-count: 3;
 	column-gap: 5px;
 	margin-top: 40px;
@@ -119,6 +121,7 @@ header, section, footer, aside, article, figure {
 	}
 	#Characters {
 	-webkit-column-count: 2;
+	-moz-column-count: 2;
 	column-count: 2;
 	}
 	aside {
@@ -138,6 +141,7 @@ header, section, footer, aside, article, figure {
 	}
 	#Characters {
 	-webkit-column-count: 1;
+	-moz-column-count: 1;
 	column-count: 1;
 	}
 	aside {
@@ -157,6 +161,7 @@ header, section, footer, aside, article, figure {
 	}
 	#Characters {
 	-webkit-column-count: 1;
+	-moz-column-count: 1;
 	column-count: 1;
 	}
 	aside {
