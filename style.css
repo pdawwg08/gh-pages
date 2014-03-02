@@ -1,6 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	width: 70%;
+	margin: 0 auto;
+	background:url(cityscapes-skyline-chicago-photography-grayscale-illinois.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
+}
+
 #Logo {
 	float: left;
 	width:40%;
