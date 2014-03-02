@@ -6,3 +6,7 @@
 	width:40%;
 	max-width:300px;
 }
+nav {
+	clear: left;
+	font-family:'Lane-Narrow';
+}
