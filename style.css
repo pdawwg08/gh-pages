@@ -74,6 +74,27 @@ input {
 	border-radius: 4px;
 	padding: .5em 1em;
 }
-.lane {
-	font-family:'Lane-Narrow';
+
+#white {
+	background-color:#FFF;
+	margin-top: 50px;
+	padding: 7%;
+	padding-bottom:200px;
+}
+/* Results page*/
+
+#results img {
+	float:left;
+}
+#results div {
+	clear:left;
+	height:160px;
+	padding-bottom: 30px;
+}
+/* Details page*/
+#details {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+#details button {
+	display:block;
 }
