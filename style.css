@@ -8,7 +8,8 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;;
+  background-size: cover;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 #Logo {
@@ -75,26 +76,39 @@ input {
 	padding: .5em 1em;
 }
 
-#white {
+.white {
 	background-color:#FFF;
 	margin-top: 50px;
 	padding: 7%;
 	padding-bottom:200px;
+	border-radius: 4px;
 }
-/* Results page*/
+/* Results page */
 
 #results img {
 	float:left;
 }
-#results div {
+.results {
 	clear:left;
 	height:160px;
 	padding-bottom: 30px;
 }
-/* Details page*/
-#details {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+#results div {
+	margin-bottom: 20px;
 }
+/* Details page */
+
 #details button {
 	display:block;
+}
+/* Sign Up */
+
+#login form {
+	float:left;
+}
+
+aside {
+	float:left;
+	padding-left:60px;
 }
