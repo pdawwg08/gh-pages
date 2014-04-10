@@ -30,3 +30,11 @@ var tax = 7.25
 priceWithout = price*(1-(discount/100))
 priceWith = priceWithout*(1+(tax/100))
 console.log("Your "+description+" was originally $"+price+", but after a "+discount+"% discount, it is now $"+priceWithout+" without tax, and $"+priceWith+" with tax.")
+
+//Prompt and Alert
+var width = prompt("We are calculating the area of a rectangle.\nPlease enter the width:")
+var height = prompt("Please enter the height:")
+var area = width * height
+result = "The area of your rectangle is "+area+" square feet"
+alert(result)
+console.log(result)
