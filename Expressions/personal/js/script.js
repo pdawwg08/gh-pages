@@ -1,10 +1,12 @@
 // Preston Cain 4/17/2014 Conditionals
 
 //Personal
+//prompt for diapers
 var diaperDaily = prompt("We are calculating how many diaper boxes you will use in a year.\nPlease enter the number of diapers you use per day:");
 if(diaperDaily==""){
 	var diaperDaily = prompt("You forgot to input the number of diapers you use per day!");
 }
+//prompt for diapers in a box
 var box = prompt("Please enter the number of diapers are in a box of your favorite brand:");
 if(box==""){
 	var box = prompt("You forgot to input the number of diapers in a box!");
