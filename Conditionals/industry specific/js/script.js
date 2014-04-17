@@ -10,8 +10,8 @@ if(width==""){
 	var width = prompt("You forgot to input the width!")
 }
 var height = prompt("Please enter the height:");
-if(dpi==""){
-	var dpi = prompt("You forgot to input the dpi!")
+if(height==""){
+	var height = prompt("You forgot to input the height!")
 }
 var pixels = (width*dpi) * (height*dpi);
 if(pixels >= 3000000){
