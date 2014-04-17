@@ -15,11 +15,11 @@ if(height==""){
 }
 var pixels = (width*dpi) * (height*dpi);
 if(pixels >= 3000000){
-	result = "You need at least a 3 Megapixel camera to capture this image.\nThere are "+pixels+"pixels in this image";
+	result = "You need at least a 3 Megapixel camera to capture this image.\nThere are "+pixels+" pixels in this image";
 }else if(pixels >= 1000000){
-	result = "You only need a 1 Megapixel camera to capture this image.";
+	result = "You only need a 1 Megapixel camera to capture this image.\nThere are "+pixels+" pixels in this image";
 }else{
-	result = "You don't need to worry about the resolution of the camera.\nThe image is less than 1 Megapixel";
+	result = "You don't need to worry about the resolution of the camera.\nThe image is less than 1 Megapixel\nThere are "+pixels+" pixels in this image";
 }
 alert(result);
 console.log(result);
