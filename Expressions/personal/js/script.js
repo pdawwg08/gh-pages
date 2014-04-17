@@ -13,8 +13,9 @@ var box = prompt("Please enter the number of diapers are in a box of your favori
 if(box==""){
 	var box = prompt("You forgot to input the number of diapers in a box!");
 }
+//calculate
 var diaperTotal = diaperDaily*365;
-//prevent errors
+//prevent errors, otherwise continue calculation
 if(diaperDaily==0 || box==0){
 	var diaperBoxes=0;
 }else{
