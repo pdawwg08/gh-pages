@@ -27,10 +27,15 @@ if(fat > 10){
 if(fat < 1){
 	alert("You must really hate pie!");
 }
+//error prevention
 if(slices=="" || guests==""){
 	alert("You did not answer all questions.");
 }
+//calculation
 var pies = (guests*fat)/slices;
+//form alert
 result = "The number of pies you will need is "+pies;
+//display alert
 alert(result);
+//show result in log
 console.log(result);
