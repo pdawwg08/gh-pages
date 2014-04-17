@@ -21,6 +21,7 @@ if(diaperDaily==0 || box==0){
 }else{
 	var diaperBoxes = diaperTotal/box;
 }
+//ternary to display in case of error
 (diaperBoxes==0) ? result = "You do not need to buy any diapers.\nYou must not have a baby!": result = "The number of boxes you will use in a year is "+diaperBoxes;
 
 alert(result);
