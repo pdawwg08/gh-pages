@@ -1,4 +1,4 @@
-// Preston Cain 4/10/2014 Expressions
+// Preston Cain 4/17/2014 Conditionals
 
 //Wacky
 var slices = prompt("We are calculating the number of pies you will need for thanksgiving.\nPlease enter the number of slices per pie:")
