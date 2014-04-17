@@ -14,7 +14,9 @@ if(height==""){
 	var height = prompt("You forgot to input the height!");
 }
 var pixels = (width*dpi) * (height*dpi);
-if(pixels >= 3000000){
+if (pixels >= 5000000){
+	result = "You need at least a 5 Megapixel camera to capture this image.\nThere are "+pixels+" pixels in this image";
+}else if(pixels >= 3000000){
 	result = "You need at least a 3 Megapixel camera to capture this image.\nThere are "+pixels+" pixels in this image";
 }else if(pixels >= 1000000){
 	result = "You only need a 1 Megapixel camera to capture this image.\nThere are "+pixels+" pixels in this image";
