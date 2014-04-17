@@ -32,5 +32,7 @@ if (pixels >= 5000000){
 }else{
 	result = "You don't need to worry about the resolution of the camera.\nThe image is less than 1 Megapixel\nThere are "+pixels+" pixels in this image";
 }
+//show the appropriate alert
 alert(result);
+//log the alert result
 console.log(result);
