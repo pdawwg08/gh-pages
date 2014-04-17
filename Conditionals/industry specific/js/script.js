@@ -4,16 +4,19 @@
 
 //prompt for pixels
 var dpi = prompt("We are calculating the pixels in the desired image.\nPlease enter the dpi:");
+//error prevention
 if(dpi==""){
 	var dpi = prompt("You forgot to input the dpi!");
 }
 //prompt for width
 var width = prompt("Please enter the width:");
+//error prevention
 if(width==""){
 	var width = prompt("You forgot to input the width!");
 }
 //prompt for height
 var height = prompt("Please enter the height:");
+//error prevention
 if(height==""){
 	var height = prompt("You forgot to input the height!");
 }
