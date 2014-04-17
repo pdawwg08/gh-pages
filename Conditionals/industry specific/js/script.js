@@ -2,10 +2,17 @@
 
 //Industry Specific
 var dpi = prompt("We are calculating the pixels in the desired image.\nPlease enter the dpi:");
-if(dpi==""){prompt("You forgot to input the dpi!")
+if(dpi==""){
+	var dpi = prompt("You forgot to input the dpi!")
 }
 var width = prompt("Please enter the width:");
+if(width==""){
+	var width = prompt("You forgot to input the width!")
+}
 var height = prompt("Please enter the height:");
+if(dpi==""){
+	var dpi = prompt("You forgot to input the dpi!")
+}
 var pixels = (width*dpi) * (height*dpi);
 if(pixels >= 3000000){
 	result = "You need at least a 3 Megapixel camera to capture this image.";
