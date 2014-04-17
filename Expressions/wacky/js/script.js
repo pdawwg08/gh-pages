@@ -19,6 +19,8 @@ if(fat > 10){
 if(fat < 1){
 	alert("You must really hate pie!")
 }
+if(slices=="" || guests==""){
+}
 var pies = (guests*fat)/slices
 result = "The number of pies you will need is "+pies
 alert(result)
