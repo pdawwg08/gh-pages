@@ -2,6 +2,8 @@
 
 //Industry Specific
 var dpi = prompt("We are calculating the pixels in the desired image.\nPlease enter the dpi:");
+if(dpi==""){prompt("You forgot to input the dpi!")
+}
 var width = prompt("Please enter the width:");
 var height = prompt("Please enter the height:");
 var pixels = (width*dpi) * (height*dpi);
