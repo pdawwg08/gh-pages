@@ -5,7 +5,7 @@ var dpi = prompt("We are calculating the pixels in an image.\nPlease enter the d
 var width = prompt("Please enter the width:")
 var height = prompt("Please enter the height:")
 var pixels = (width*dpi) * (height*dpi)
-if(pixels >=
+if(pixels >= 3000000000){
 result = "The pixels in your image is "+pixels
 alert(result)
 console.log(result)
