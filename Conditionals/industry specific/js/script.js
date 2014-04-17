@@ -6,6 +6,6 @@ var width = prompt("Please enter the width:")
 var height = prompt("Please enter the height:")
 var pixels = (width*dpi) * (height*dpi)
 if(pixels >= 3000000000){
-result = "The pixels in your image is "+pixels
+result = "You need at least a 3 Megapixel camera
 alert(result)
 console.log(result)
