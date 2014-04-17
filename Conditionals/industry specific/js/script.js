@@ -1,14 +1,18 @@
 // Preston Cain 4/17/2014 Conditionals
 
 //Industry Specific
+
+//prompt for pixels
 var dpi = prompt("We are calculating the pixels in the desired image.\nPlease enter the dpi:");
 if(dpi==""){
 	var dpi = prompt("You forgot to input the dpi!");
 }
+//prompt for width
 var width = prompt("Please enter the width:");
 if(width==""){
 	var width = prompt("You forgot to input the width!");
 }
+//prompt for height
 var height = prompt("Please enter the height:");
 if(height==""){
 	var height = prompt("You forgot to input the height!");
