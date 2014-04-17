@@ -10,6 +10,9 @@ if(guests==""){
 	var guests = prompt("You forgot to input the number of guests!");
 }
 var fat = prompt("Please enter how fat you want to be (from 1 to 10):")
+if(fat==""){
+	var fat = prompt("You forgot to input how fat you want to be (from 1 to 10)!");
+}
 var pies = (guests*fat)/slices
 result = "The number of pies you will need is "+pies
 alert(result)
