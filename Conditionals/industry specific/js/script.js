@@ -20,7 +20,9 @@ var height = prompt("Please enter the height:");
 if(height==""){
 	var height = prompt("You forgot to input the height!");
 }
+//calculate pixels
 var pixels = (width*dpi) * (height*dpi);
+//if over 5 megapixels show alert, if over 3 megapixels show different alert, if over 1 megapixel show third alert, and if under 1 megapixel show fourth alert
 if (pixels >= 5000000){
 	result = "You need at least a 5 Megapixel camera to capture this image.\nThere are "+pixels+" pixels in this image";
 }else if(pixels >= 3000000){
