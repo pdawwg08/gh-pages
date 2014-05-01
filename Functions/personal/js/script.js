@@ -14,13 +14,13 @@ var copyPrompt = function(measurement){
 var diaperDaily = copyPrompt("diapers you use per day");
 
 //prompt for diapers in a box
-var box = copyPrompt("diapers are in a box of your favorite brand:");
+var brand = copyPrompt("diapers are in a box of your favorite brand:");
 
 //calculate
 function diaperCalc(daily,box){
     var diaperTotal = daily*365;
     //prevent errors, otherwise continue calculation
-    if(diaperDaily==0 || box==0){
+    if(daily==0 || box==0){
 	   var diaperBoxes=0;
     }else{
 	   var diaperBoxes = diaperTotal/box;
