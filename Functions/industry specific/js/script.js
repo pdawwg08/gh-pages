@@ -32,7 +32,7 @@ if (pixels >= 5000000){
 }
     return result;
 }
-answer = pixelCalc(dpi, width, height)
+answer = pixelCalc(dpi, width, height) //call the function
 //show the appropriate alert
 alert(answer);
 //log the alert result
