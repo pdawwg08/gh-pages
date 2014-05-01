@@ -1,5 +1,13 @@
 // Preston Cain 5/1/2014 Functions
 
+//Circumference
+var calcCircum = function(radius){ //create the function
+    var circumference = 2*3.14*radius; //calculate the circumference
+    return circumference; //return the answer
+    }
+var circum = calcCircum(4) //call the function
+console.log("The circumference of the circle is "+circum) //log it
+
 //Stuff your face
 weight = 275;
 qualify = (weight > 250) ? "The competitor qualifies for the heavyweight division." :  "The competitor needs to gain some weight!";
