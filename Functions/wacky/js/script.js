@@ -4,7 +4,7 @@
 var copyPrompt = function(measurement){
     var unit = prompt("We are calculating the number of pies you will need for thanksgiving.\nPlease enter "+measurement+":"); //generic prompt
     if(unit==""){
-	var unit = prompt("You forgot to input "+measurement+"!");
+	var unit = prompt("You forgot to input "+measurement+"!"); //alert
 }
     return unit;
 }
