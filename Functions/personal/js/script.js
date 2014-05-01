@@ -17,8 +17,8 @@ var diaperDaily = copyPrompt("diapers you use per day");
 var box = copyPrompt("diapers are in a box of your favorite brand:");
 
 //calculate
-function diaperCalc(){
-    var diaperTotal = diaperDaily*365;
+function diaperCalc(daily,box){
+    var diaperTotal = daily*365;
     //prevent errors, otherwise continue calculation
     if(diaperDaily==0 || box==0){
 	   var diaperBoxes=0;
