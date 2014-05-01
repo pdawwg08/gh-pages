@@ -25,6 +25,7 @@ function diaperCalc(daily,box){
     }else{
 	   var diaperBoxes = diaperTotal/box;
     }
+    return diaperBoxes;
 }
 diaperCalc(diaperDaily,brand)
 //ternary to display in case of error
