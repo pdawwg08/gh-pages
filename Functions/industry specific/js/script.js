@@ -30,9 +30,10 @@ if (pixels >= 5000000){
 }else{
 	result = "You don't need to worry about the resolution of the camera.\nThe image is less than 1 Megapixel\nThere are "+pixels+" pixels in this image";
 }
+    return result;
 }
-pixelCalc(dpi, width, height)
+answer = pixelCalc(dpi, width, height)
 //show the appropriate alert
-alert(result);
+alert(answer);
 //log the alert result
-console.log(result);
+console.log(answer);
