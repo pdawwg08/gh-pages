@@ -1,18 +1,21 @@
-// Preston Cain 4/17/2014 Conditionals
+// Preston Cain 5/1/2014 Functions
 
 //Personal
+
+var copyPrompt = function(measurement){
+    var unit = prompt("We are calculating how many diaper boxes you will use in a year.\nPlease enter the number of "+measurement+":");
+    if(unit==""){
+	var unit = prompt("You forgot to input the "+measurement+"!");
+}
+    return unit;
+}
+
 //prompt for diapers
-var diaperDaily = prompt("We are calculating how many diaper boxes you will use in a year.\nPlease enter the number of diapers you use per day:");
-//prevent errors
-if(diaperDaily==""){
-	var diaperDaily = prompt("You forgot to input the number of diapers you use per day!");
-}
+var diaperDaily = copyPrompt("diapers you use per day");
+
 //prompt for diapers in a box
-var box = prompt("Please enter the number of diapers are in a box of your favorite brand:");
-//prevent errors
-if(box==""){
-	var box = prompt("You forgot to input the number of diapers in a box!");
-}
+var box = copyPrompt("diapers are in a box of your favorite brand:");
+
 //calculate
 var diaperTotal = diaperDaily*365;
 //prevent errors, otherwise continue calculation
