@@ -29,7 +29,7 @@ function diaperCalc(daily,box){
 }
 boxes = diaperCalc(diaperDaily,brand)
 //ternary to display in case of error
-(diaperBoxes==0) ? result = "You do not need to buy any diapers.\nYou must not have a baby!": result = "The number of boxes you will use in a year is "+diaperBoxes;
+(boxes==0) ? result = "You do not need to buy any diapers.\nYou must not have a baby!": result = "The number of boxes you will use in a year is "+boxes;
 
 alert(result);
 console.log(result);
