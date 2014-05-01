@@ -18,6 +18,7 @@ var width = copyPrompt("width");
 var height = copyPrompt("height");
 
 //calculate pixels
+function pixelCalc(dpi, width, height){
 var pixels = (width*dpi) * (height*dpi);
 //if over 5 megapixels show alert, if over 3 megapixels show different alert, if over 1 megapixel show third alert, and if under 1 megapixel show fourth alert
 if (pixels >= 5000000){
@@ -28,6 +29,7 @@ if (pixels >= 5000000){
 	result = "You only need a 1 Megapixel camera to capture this image.\nThere are "+pixels+" pixels in this image";
 }else{
 	result = "You don't need to worry about the resolution of the camera.\nThe image is less than 1 Megapixel\nThere are "+pixels+" pixels in this image";
+}
 }
 //show the appropriate alert
 alert(result);
