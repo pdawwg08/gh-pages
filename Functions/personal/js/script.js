@@ -17,7 +17,7 @@ var diaperDaily = copyPrompt("diapers you use per day");
 var brand = copyPrompt("diapers are in a box of your favorite brand:");
 
 //calculate
-function diaperCalc(daily,box){
+function diaperCalc(daily,box){ //create the function
     var diaperTotal = daily*365;
     //prevent errors, otherwise continue calculation
     if(daily==0 || box==0){
@@ -25,11 +25,11 @@ function diaperCalc(daily,box){
     }else{
 	   var diaperBoxes = diaperTotal/box;
     }
-    return diaperBoxes;
+    return diaperBoxes; //return the answer
 }
-boxes = diaperCalc(diaperDaily,brand)
+boxes = diaperCalc(diaperDaily,brand) // call the function
 //ternary to display in case of error
 (boxes==0) ? result = "You do not need to buy any diapers.\nYou must not have a baby!": result = "The number of boxes you will use in a year is "+boxes;
 
-alert(result);
-console.log(result);
+alert(result); //display alert
+console.log(result); //log it
