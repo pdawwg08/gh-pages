@@ -3,11 +3,11 @@
 //Industry Specific
 
 var copyPrompt = function(measurement){
-    var unit = prompt("We are calculating the pixels in the desired image.\nPlease enter the "+measurement+":");
+    var unit = prompt("We are calculating the pixels in the desired image.\nPlease enter the "+measurement+":"); //generic prompt
     if(unit==""){
-	var unit = prompt("You forgot to input the "+measurement+"!");
-}
-    return unit;
+	var unit = prompt("You forgot to input the "+measurement+"!"); //alert
+} //if first prompt is empty
+    return unit; //return what the user put in the prompt
 }
 
 //prompt for pixels
