@@ -6,7 +6,7 @@ var copyPrompt = function(measurement){
     if(unit==""){
 	var unit = prompt("You forgot to input "+measurement+"!"); //alert
 } //if first prompt is empty
-    return unit;
+    return unit; //return what the user put in the prompt
 }
 
 //prompt for slices
