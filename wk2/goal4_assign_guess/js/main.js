@@ -15,8 +15,14 @@ var dom = {
     output: document.querySelector("#output"),
     button: document.querySelector("button")
 }
+var clickCount = 0;
 console.log(dom.output.innerHTML)
 dom.button.addEventListener('click', function validateInput(){
+    var clickLimit = 3; //Max number of clicks
+	if(clickCount>=clickLimit) {
+		alert("You only have "+clickLimit+" tries.");
+	}else{
+		clickCount++;
         var playersGuess = parseInt(dom.input.value);
         console.log(playersGuess)
         if (isNaN(playersGuess)){
@@ -26,4 +32,14 @@ dom.button.addEventListener('click', function validateInput(){
             dom.output.innerHTML="Congratulations! "+guess+" is correct!";
         }
     
+        if (playersGuess>guess){
+            dom.output.innerHTML="Answer is less than "+ playersGuess +", you have "+(clickLimit-clickCount)+" tries remaining";
+        }
+    
+        if (playersGuess<guess){
+            dom.output.innerHTML='Answer is greater than '+ playersGuess +", you have "+(clickLimit-clickCount)+" tries remaining";
+        }
         console.log(dom.output.innerHTML)
+    }
+});
+
