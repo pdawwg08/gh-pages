@@ -16,4 +16,14 @@ console.log(FIGHT!!)
     //player health
     var player1Health = 100;
     var player2Health = 100;
+    
+    function fight(){
+    alert(player1Name+":"+player1Health+" *START* "+player2Name":"+player2Health)
+    for (var i=0, i < 10; i++){
+    }
+    winnerCheck();
+    }
+    function winnerCheck(){
+    }
+    fight();
 })();
