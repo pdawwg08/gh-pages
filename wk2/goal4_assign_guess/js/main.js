@@ -26,3 +26,4 @@ dom.button.addEventListener('click', function validateInput(){
             dom.output.innerHTML="Congratulations! "+guess+" is correct!";
         }
     
+        console.log(dom.output.innerHTML)
