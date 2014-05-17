@@ -19,17 +19,27 @@ console.log(FIGHT!!)
     
     function fight(){
     alert(player1Name+":"+player1Health+" *START* "+player2Name":"+player2Health)
-    for (var i=0, i < 10; i++){
-        var minDamage1 = player1Damage *.5;
-        var minDamage2 = player2Damage *.5;
-        var f1 = Math.floor(Math.random() * (player1Damage - minDamage1) + minDamage1);
-        var f2 = Math.floor(Math.random() * (player2Damage - minDamage2) + minDamage2);
-        player1Health-=f1;
-        player2Health-=f2;
-    }
-    winnerCheck();
+        for (var i=0, i < 10; i++){
+            var minDamage1 = player1Damage *.5;
+            var minDamage2 = player2Damage *.5;
+            var f1 = Math.floor(Math.random() * (player1Damage - minDamage1) + minDamage1);
+            var f2 = Math.floor(Math.random() * (player2Damage - minDamage2) + minDamage2);
+            player1Health-=f1;
+            player2Health-=f2;
+            alert(player1Name+":"+player1Health+" *START* "+player2Name":"+player2Health)
+            var results = winnerCheck();
+        }
     }
     function winnerCheck(){
+        var result="no winner"
+        if(player1Health<1 && player2Health<1{
+           result = "You Both Die";
+           }else if(player1Health<1{
+           result = player2Name+" Wins!";
+           }else if(player2Health<1){
+            result = player1Name+" Wins!";
+        }
+        return = result
     }
     fight();
 })();
