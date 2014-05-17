@@ -16,3 +16,9 @@ var dom = {
     button: document.querySelector("button")
 }
 console.log(dom.output.innerHTML)
+dom.button.addEventListener('click', function validateInput(){
+        var playersGuess = parseInt(dom.input.value);
+        console.log(playersGuess)
+        if (isNaN(playersGuess)){
+            dom.output.innerHTML = "Please enter a number from 1 to 10"
+        }
