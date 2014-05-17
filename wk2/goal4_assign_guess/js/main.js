@@ -22,3 +22,7 @@ dom.button.addEventListener('click', function validateInput(){
         if (isNaN(playersGuess)){
             dom.output.innerHTML = "Please enter a number from 1 to 10"
         }
+        if (playersGuess==guess){
+            dom.output.innerHTML="Congratulations! "+guess+" is correct!";
+        }
+    
