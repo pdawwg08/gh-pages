@@ -16,6 +16,7 @@ var dom = {
     button: document.querySelector("button")
 }
 var clickCount = 0;
+console.log("clicks ="+clickCount)
 console.log(dom.output.innerHTML)
 dom.button.addEventListener('click', function validateInput(){
     var clickLimit = 3; //Max number of clicks
@@ -23,6 +24,7 @@ dom.button.addEventListener('click', function validateInput(){
 		alert("You only have "+clickLimit+" tries.");
 	}else{
 		clickCount++;
+        console.log("clicks ="+clickCount)
         var playersGuess = parseInt(dom.input.value);
         console.log(playersGuess)
         if (isNaN(playersGuess)){
