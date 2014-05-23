@@ -36,7 +36,7 @@ Assignment: Duel III
                 round++;
                 document.getElementById("kabal").innerHTML = playerOne[0]+":"+playerOne[2];
                 document.getElementById("kratos").innerHTML = playerTwo[0]+":"+playerTwo[2];
-                document.getElementById("round_number").value = "ROUND "+round+" OVER";
+                document.getElementsByTagName("input")[0].value = "ROUND "+round+" OVER";
                 alert(playerOne[0]+":"+playerOne[2]+"  *ROUND "+round+" OVER"+"*  "+playerTwo[0]+":"+playerTwo[2]);
 
             } else{
