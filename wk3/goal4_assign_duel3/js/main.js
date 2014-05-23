@@ -46,7 +46,6 @@ Assignment: Duel III
                 document.getElementById("kabal").innerHTML = "";
                 document.getElementById("kratos").innerHTML = "";
                 document.getElementsByTagName("input")[0].value = result;
-                alert(result);
                 break;
             };
 
