@@ -43,6 +43,9 @@ Assignment: Duel III
                 alert(playerOne[0]+":"+playerOne[2]+"  *ROUND "+round+" OVER"+"*  "+playerTwo[0]+":"+playerTwo[2]);
 
             } else{
+                document.getElementById("kabal").innerHTML = "";
+                document.getElementById("kratos").innerHTML = "";
+                document.getElementsByTagName("input")[0].value = result;
                 alert(result);
                 break;
             };
