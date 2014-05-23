@@ -66,6 +66,6 @@ Assignment: Duel III
         };
        return result;
     };
-    fight();
+    document.getElementsByClassName("buttonblue").addEventListener("click", fight());
 
 })();
