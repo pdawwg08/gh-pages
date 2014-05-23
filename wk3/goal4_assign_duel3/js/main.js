@@ -14,6 +14,9 @@ Assignment: Duel III
     var round=0;
 
     function fight(){
+        document.getElementById("kabal").innerHTML = playerOne[0]+":"+playerOne[2];
+        document.getElementById("kratos").innerHTML = playerTwo[0]+":"+playerTwo[2];
+        document.getElementsByTagName("input")[0].value = "START";
         alert(playerOne[0]+":"+playerOne[2]+"  *START*  "+playerTwo[0]+":"+playerTwo[2]);
         for (var i = 0; i < 10; i++)
         {
