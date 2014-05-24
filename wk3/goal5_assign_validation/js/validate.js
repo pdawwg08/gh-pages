@@ -32,9 +32,9 @@
         console.log(password.value)
         validateField(password);
         
-        var username = document.getElementById("f_username");
-        console.log(username.value)
-        validateField(username);
+        var ssn = document.getElementById("f_ssn");
+        console.log(ssn.value)
+        validateField(ssn);
 
         e.preventDefault();
         return false;
