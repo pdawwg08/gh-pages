@@ -13,7 +13,7 @@ Assignment: Duel III
     //initiate round
     var round=0;
 
-    function fight(){
+    function fight(event){
         document.getElementById("kabal").innerHTML = playerOne[0]+":"+playerOne[2];
         document.getElementById("kratos").innerHTML = playerTwo[0]+":"+playerTwo[2];
         document.getElementsByTagName("input")[0].value = "START";
