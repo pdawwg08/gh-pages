@@ -15,7 +15,7 @@
         validateField("f_phone");
         validateField("f_password");
         validateField("f_ssn");
-
+        
         e.preventDefault();
         return false;
     };
@@ -39,7 +39,7 @@
             var pattern = ^\d{3}-\d{2}-\d{4}$
         };
 
-        var pass = pattern.test();
+        var pass = pattern.test(myform.value);
         var errorMsg = inputName.nextSibling.nextSibling.nextSibling.nextSibling;
 
         if (!pass || inputName.value.length < 2){
