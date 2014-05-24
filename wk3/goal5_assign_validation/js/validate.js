@@ -28,7 +28,7 @@
 
         };
         if (inputName.name === "f_email"){
-            var pattern = 'a RegEx pattern goes here'
+            var pattern = [-0-9a-zA-Z.+_]+@[-0-9a-zA-Z.+_]+\.[a-zA-Z]{2,4}
 
         };
         if (inputName.name === "f_phone"){
