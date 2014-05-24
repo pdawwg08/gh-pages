@@ -39,7 +39,7 @@
             var pattern = /^\d{3}-\d{2}-\d{4}$/
         };
 
-        var pass = pattern.test(myform.value);
+        var pass = pattern.test(inputName.value);
         var errorMsg = inputName.nextSibling.nextSibling.nextSibling.nextSibling;
 
         if (!pass || inputName.value.length < 2){
