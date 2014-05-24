@@ -24,9 +24,9 @@
         console.log(email.value)
         validateField(email);
         
-        var username = document.getElementById("f_username");
-        console.log(username.value)
-        validateField(username);
+        var phone = document.getElementById("f_phone");
+        console.log(phone.value)
+        validateField(phone);
         
         var username = document.getElementById("f_username");
         console.log(username.value)
