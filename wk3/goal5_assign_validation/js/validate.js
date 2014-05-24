@@ -40,7 +40,7 @@
 
         };
         if (inputName.name === "f_ssn"){
-            var pattern = 'a RegEx pattern goes here'
+            var pattern = ^\d{3}-\d{2}-\d{4}$
 
         };
 
