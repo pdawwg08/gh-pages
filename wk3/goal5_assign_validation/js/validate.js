@@ -32,7 +32,7 @@
 
         };
         if (inputName.name === "f_phone"){
-            var pattern = 'a RegEx pattern goes here'
+            var pattern = ^([\(]{1}[0-9]{3}[\)]{1}[0-9]{3}[\-]{1}[0-9]{4})$
 
         };
         if (inputName.name === "f_password"){
