@@ -16,6 +16,10 @@
         //validateField("f_password");
         //validateField("f_ssn");
         
+        var username = document.getElementById("f_username");
+        console.log(username.value)
+        validateField(username);  //id = is the form input field ID
+
         e.preventDefault();
         return false;
     };
