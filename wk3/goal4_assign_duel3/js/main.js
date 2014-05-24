@@ -3,12 +3,12 @@ Name:Preston Cain
 Date:5/23/2014
 Assignment: Duel III
 */
-(function(){
+(function () {
 
     console.log("FIGHT!!!");
-
-    var playerOne = ["Spiderman",20,100]
-    var playerTwo = ["Batman",20,100]
+    
+    var playerOne = ["Kabal",20,100];
+    var playerTwo = ["Kratos",20,100];
 
     //initiate round
     var round=0;
