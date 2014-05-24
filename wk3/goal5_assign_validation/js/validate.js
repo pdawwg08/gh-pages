@@ -19,6 +19,22 @@
         var username = document.getElementById("f_username");
         console.log(username.value)
         validateField(username);  //id = is the form input field ID
+        
+        var email = document.getElementById("f_email");
+        console.log(email.value)
+        validateField(email);
+        
+        var username = document.getElementById("f_username");
+        console.log(username.value)
+        validateField(username);
+        
+        var username = document.getElementById("f_username");
+        console.log(username.value)
+        validateField(username);
+        
+        var username = document.getElementById("f_username");
+        console.log(username.value)
+        validateField(username);
 
         e.preventDefault();
         return false;
