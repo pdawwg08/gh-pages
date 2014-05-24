@@ -24,7 +24,7 @@
     var validateField = function(inputName){
 
         if (inputName.name === "f_username"){
-            var pattern = 'a RegEx pattern goes here'
+            var pattern = ^([A-Z]+[a-zA-Z]*)(\s|\-)?([A-Z]+[a-zA-Z]*)?(\s|\-)?([A-Z]+[a-zA-Z]*)?$
 
         };
         if (inputName.name === "f_email"){
