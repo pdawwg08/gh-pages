@@ -25,26 +25,21 @@
 
         if (inputName.name === "f_username"){
             var pattern = ^([A-Z]+[a-zA-Z]*)(\s|\-)?([A-Z]+[a-zA-Z]*)?(\s|\-)?([A-Z]+[a-zA-Z]*)?$
-
         };
         if (inputName.name === "f_email"){
             var pattern = [-0-9a-zA-Z.+_]+@[-0-9a-zA-Z.+_]+\.[a-zA-Z]{2,4}
-
         };
         if (inputName.name === "f_phone"){
             var pattern = ^([\(]{1}[0-9]{3}[\)]{1}[0-9]{3}[\-]{1}[0-9]{4})$
-
         };
         if (inputName.name === "f_password"){
             var pattern = ^[a-zA-Z]\w{3,14}$
-
         };
         if (inputName.name === "f_ssn"){
             var pattern = ^\d{3}-\d{2}-\d{4}$
-
         };
 
-        var pass = 'the RegEx .test statement is needed here';
+        var pass = pattern.test();
         var errorMsg = inputName.nextSibling.nextSibling.nextSibling.nextSibling;
 
         if (!pass || inputName.value.length < 2){
