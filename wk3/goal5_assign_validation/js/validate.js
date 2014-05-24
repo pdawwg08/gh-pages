@@ -36,7 +36,7 @@
 
         };
         if (inputName.name === "f_password"){
-            var pattern = 'a RegEx pattern goes here'
+            var pattern = ^[a-zA-Z]\w{3,14}$
 
         };
         if (inputName.name === "f_ssn"){
