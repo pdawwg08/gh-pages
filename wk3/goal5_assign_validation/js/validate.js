@@ -65,9 +65,11 @@
         if (!pass || inputName.value.length < 2){
             errorMsg.style.display='block';
             inputName.style.backgroundColor = 'red';
+            console.log("fail")
         } else if (pass && inputName.value.length > 5){
             errorMsg.style.display='none';
             inputName.style.backgroundColor = 'green';
+            console.log("pass")
         } else {
             errorMsg.style.display='none';
             inputName.style.backgroundColor = 'white';
