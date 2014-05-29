@@ -14,5 +14,6 @@
         this.action = Person.actions[Math.floor(Math.random()*Person.actions.length)];
         this.job = Person.jobs[Math.floor(Math.random()*Person.actions.length)];
         this.row = row;
+        document.getElementById("r"+this.row+"c3").innerHTML = this.action;
     }
 })();
