@@ -10,4 +10,9 @@
     var interval;
     clearInterval(interval);
     interval = setInterval(runUpdate,1000/30);
+    function runUpdate(){
+        people.forEach(function(element){
+            element.update();
+                       });
+    }
 })();
