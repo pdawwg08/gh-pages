@@ -7,4 +7,9 @@
     window.Person = Person;
     Person.jobs = ["astronaut","chef","designer","athlete"];
     Person.actions = ["thinking","forgetting","remembering"]
+    
+    function Person(name,row){
+        console.log("Person Created :"+name);
+        this.name = name;
+    }
 })();
