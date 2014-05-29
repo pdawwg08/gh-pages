@@ -11,5 +11,6 @@
     function Person(name,row){
         console.log("Person Created :"+name);
         this.name = name;
+        this.action = Person.actions[Math.floor(Math.random()*Person.actions.length)];
     }
 })();
