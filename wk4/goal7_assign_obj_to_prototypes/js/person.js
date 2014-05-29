@@ -12,5 +12,7 @@
         console.log("Person Created :"+name);
         this.name = name;
         this.action = Person.actions[Math.floor(Math.random()*Person.actions.length)];
+        this.job = Person.jobs[Math.floor(Math.random()*Person.actions.length)];
+        this.row = row;
     }
 })();
