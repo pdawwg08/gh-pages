@@ -20,6 +20,7 @@
         if (Math.floor(Math.random() <.01)){
             var i = Math.floor(Math.random()*Person.actions.length);
             this.action = Person.actions[i]
+            document.getElementById("r"+this.row+"c3").innerHTML = this.action;
         }
     }
 })();
