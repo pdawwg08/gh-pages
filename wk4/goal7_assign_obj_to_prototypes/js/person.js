@@ -16,4 +16,6 @@
         this.row = row;
         document.getElementById("r"+this.row+"c3").innerHTML = this.action;
     }
+    Person.prototype.update = function (){
+    }
 })();
